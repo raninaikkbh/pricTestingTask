@@ -25,10 +25,6 @@ public class HomePage extends BasePage
 	
 	public void clickLockedMessage()
 	{
-		//lockedMessage.click();
-		
-		
-		// 2 Try with Actions Class
 		Actions act=new Actions(driver);
 		act.moveToElement(lockedMessage).click().perform();
 	}
